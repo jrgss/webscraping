@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+ <ScrapeComponent/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ScrapeComponent from './components/ScrapeComponent.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ScrapeComponent
   }
 }
 </script>
